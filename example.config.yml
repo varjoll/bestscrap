@@ -1,0 +1,18 @@
+# Copy this file to config.yml and edit.
+
+# Best Buy Canada SKU: the number at the end of the product URL,
+# e.g. https://www.bestbuy.ca/en-ca/product/playstation-5-pro-console/19492009
+sku: 19492009
+
+# Provinces to watch, comma separated (AB BC MB NB NL NS ON PE QC SK), or ALL.
+provinces: QC
+
+# Seconds between checks. Going much lower risks getting rate limited.
+interval: 45
+
+# Sound played when stock appears. Leave empty for no sound.
+sound: sounds/alert.wav
+
+# Optional: extra cities or postal codes to look for stores around, comma
+# separated. Use it if a store you care about is missing from `stores`.
+# extra_seeds: Rimouski, G5L3A9

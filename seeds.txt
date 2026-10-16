@@ -1,0 +1,63 @@
+# Store discovery. The locations API only returns the nearest ~50 stores for a
+# city or postal code, so `sync` queries each line below and keeps the stores
+# whose province you asked for. Format: PROVINCE  city-or-postal-code
+# Missing a store? Add a line here, or use extra_seeds in config.yml.
+QC  Montreal
+QC  Laval
+QC  Longueuil
+QC  Saint-Jerome
+QC  Saint-Jean-sur-Richelieu
+QC  Granby
+QC  Quebec City
+QC  Levis
+QC  Gatineau
+QC  Sherbrooke
+QC  Trois-Rivieres
+QC  Saint-Hyacinthe
+QC  Saguenay
+QC  Rimouski
+QC  Rouyn-Noranda
+QC  Val-d'Or
+QC  Drummondville
+QC  Saint-Georges
+ON  Toronto
+ON  Markham
+ON  Mississauga
+ON  Hamilton
+ON  Kitchener
+ON  N6A3K7
+ON  Windsor
+ON  Barrie
+ON  Kingston
+ON  K9J7B6
+ON  Niagara Falls
+ON  Ottawa
+ON  Sudbury
+ON  Thunder Bay
+ON  Sault Ste. Marie
+ON  Oshawa
+BC  Vancouver
+BC  Surrey
+BC  Abbotsford
+BC  Victoria
+BC  Nanaimo
+BC  Kelowna
+BC  Kamloops
+BC  Prince George
+AB  Calgary
+AB  Edmonton
+AB  Lethbridge
+AB  Red Deer
+AB  Grande Prairie
+AB  Fort McMurray
+SK  Regina
+SK  Saskatoon
+MB  Winnipeg
+MB  Brandon
+NB  Moncton
+NB  Fredericton
+NB  Saint John
+NS  Halifax
+NS  B1P1G7
+PE  Charlottetown
+NL  St. John's
